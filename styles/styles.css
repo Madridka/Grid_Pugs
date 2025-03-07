@@ -1,20 +1,49 @@
+body {
+    background-color: beige;
+    height: 100%;
+    width: 100%;
+}
+
+.pug_grid {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 65px;
+}
+
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto;
     gap: 10px;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
     max-width: 800px;
-    margin: 20px auto;
+    margin: 0 auto;
+    height: 600px;
+    padding: 20px;
+    
 }
 
 .grid-item {
     width: 100%;
     height: 100%;
-    overflow: cover;
+    object-fit: cover;
 }
 
-.grid-item img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
+.a { 
+    grid-column: span 1; 
+    grid-row: span 1; 
+}
+
+.b { 
+    grid-column: span 1; 
+    grid-row: span 2; 
+}
+
+.c { 
+    grid-column: span 1; 
+    grid-row: span 2; 
+}
+
+.d { 
+    grid-column: span 1; 
+    grid-row: span 1; 
 }
