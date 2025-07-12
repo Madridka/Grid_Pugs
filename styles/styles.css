@@ -19,7 +19,7 @@ body {
     margin: 0 auto;
     height: 600px;
     padding: 20px;
-    
+
 }
 
 .grid-item {
@@ -28,22 +28,22 @@ body {
     object-fit: cover;
 }
 
-.a { 
-    grid-column: span 1; 
-    grid-row: span 1; 
+.a {
+    grid-column: span 1;
+    grid-row: span 1;
 }
 
-.b { 
-    grid-column: span 1; 
-    grid-row: span 2; 
+.b {
+    grid-column: span 1;
+    grid-row: span 2;
 }
 
-.c { 
-    grid-column: span 1; 
-    grid-row: span 2; 
+.c {
+    grid-column: span 1;
+    grid-row: span 2;
 }
 
-.d { 
-    grid-column: span 1; 
-    grid-row: span 1; 
+.d {
+    grid-column: span 1;
+    grid-row: span 1;
 }
